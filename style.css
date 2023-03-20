@@ -37,7 +37,10 @@ p{
     margin: 15px 0 20px 0;
 }
 
-section-p1{
+.section-p1{
+    padding: 40px 80px;
+}
+.section-m1{
     margin: 40px 0;
 }
 
@@ -54,6 +57,9 @@ body{
     padding:20px 80px;
     background-color: #E3E6F3;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 2;
+    position: sticky;
+    top: 0;
 }
 
 #navbar{
@@ -109,4 +115,76 @@ body{
 #hero h4{
     padding-bottom: 15px;
 }
+#hero h1{
+    color: #088178;
+}
 
+#hero button{
+    background-image: url(img/img/button.png);
+    background-color: transparent;
+    color: #088178;
+    border: none;
+    padding: 14px 80px 14px 65px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    font-weight: 700;
+    font-size: 18px;
+
+}
+#feature{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+#feature .fe-box{
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    border: 1px solid #cce7d0;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.07);
+    margin: 15px 0;
+}
+
+#feature .fe-box:hover{
+    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.01);
+
+}
+
+
+/* to make image responsive   ***********  */
+
+#feature .fe-box img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#feature .fe-box h6{
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: #088178;
+    background-color: #fddde4;
+}
+
+#feature .fe-box:nth-child(2) h6{
+background-color: #cdebbc;
+}
+
+#feature .fe-box:nth-child(3) h6{
+background-color: #d1e8f2;
+}
+
+#feature .fe-box:nth-child(4) h6{
+background-color: #cdd4f8;
+}
+
+#feature .fe-box:nth-child(5) h6{
+background-color: #f6dbf6;
+}
+
+#feature .fe-box:nth-child(6) h6{
+background-color: #fff2e5;
+}
