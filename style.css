@@ -614,16 +614,30 @@ footer .copyright{
     display: block;
     padding: 5px 10px;
     margin-bottom: 10px;
+    outline: none;
+    border-radius: 4px;
+
 }
 
 #prodetails .right input{
-    width: 45px;
-    height: 40px;
+    width: 50px;
+    height: 47px;
     padding-left: 10px;
     font-size: 16px;
     margin-right: 10px;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid;
 }
 
+#prodetails .right button{
+    background-color: #088178;
+    color: #fff;
+}
+
+#prodetails .right span{
+    line-height: 25px;
+}
 
 
 
@@ -810,5 +824,20 @@ footer .copyright{
 footer .copyright {
 
     text-align: start;
+}
+
+/* singleproduct */
+#prodetails{
+    flex-direction: column;
+}
+
+#prodetails .left {
+    width: 100%;
+    margin-right: 0px;
+}
+
+#prodetails .right {
+    width: 100%;
+    padding-top: 30px;
 }
 }
